@@ -1,1 +1,4 @@
 # liver-health-prediction
+The dataset was obtained from https://archive.ics.uci.edu/ml/datasets/HCV+data and consisted of 615 samples and 14 features. The patient's demographic data (Age and Sex) were combined with their lab data from biochemical test reports (ALB, ALP, ALT, AST, BIL, CHE, CHOL, CREA, GGT and PROT) to create the dataset.
+
+The aim of this project is to perform exploratory data analysis to identify errors or outliers and underlying relationships in the HCV data set. The diagnosis of the patient was used as the target attribute to classify the samples. Before classification the data was transformed and scaled, appropriate sampling methods were used. The attribute with the highest predictive value was also found using Random Forest Classifier and classification metrics were discussed.
